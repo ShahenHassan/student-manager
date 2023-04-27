@@ -12,8 +12,8 @@ const studentsSchema = new mongoose.Schema({
   startDate: { type: Date }, //unix time "1234535657"
   image: {
     type: String,
-    default:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTricwoZPkUPa0Axlr3RXO5X9hy6UmUe6WWzKvq0IYzYQ&s",
+    default:`students/default.jpg`,
+      // "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTricwoZPkUPa0Axlr3RXO5X9hy6UmUe6WWzKvq0IYzYQ&s",
   },
   documents: [String],
   address: {
